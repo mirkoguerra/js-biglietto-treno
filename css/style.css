@@ -4,10 +4,6 @@
   margin: 0;
   box-sizing: border-box;
 }
-/* HELPER */
-.border {
-  border: 1px solid white;
-}
 /* GENERALI */
 body {
   font-family: 'Roboto', sans-serif;
