@@ -1,10 +1,42 @@
-/* INIZIALIZZAZIONE */
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+/* HELPER */
+.center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
-/* GENERALI */
-body {
+.centrature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.h-30 {
+  height: 30vh;
+}
+.bg-white {
+  background-color: white;
+}
+/* GENERAL */
+main {
   font-family: 'Roboto', sans-serif;
+  width: 100vw;
+  height: 100vh;
+  background-color: #B91350;
+}
+div.container.bg-white {
+  margin-top: 5vh;
+}
+h1 {
+  font-size: 30px;
+  color: white;
+  margin-top: 5vh;
+  margin-bottom: 0;
+}
+p {
+  font-size: 18px;
+  color: #B91350;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+button {
+  margin: 30px 10px;
 }

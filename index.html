@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- per la visualizzazione -->
     <title>js-biglietto-treno</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- per bootstrap -->
     <link rel="stylesheet" href="css/style.css">
     <!-- per il mio css -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
@@ -12,7 +14,59 @@
   </head>
   <body>
 
-    
+    <main>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 center">
+            <h1>CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>
+          </div>
+        </div>
+      </div>
+
+      <div class="container h-30 bg-white">
+
+        <div class="row">
+          <div class="col-xs-4 centrature">
+            <p>Nome</p>
+            <input type="text" name="" value="">
+          </div>
+          <div class="col-xs-4 centrature">
+            <p>Km da percorrere</p>
+            <input type="text" name="" value="">
+          </div>
+          <div class="col-xs-4 centrature">
+            <p>Fascia d'età</p>
+            <select class="" name="">
+              <option value="">Minorenne</option>
+              <option value="">Maggiorenne</option>
+              <option value="">Over 65</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-xs-12 center">
+            <button type="button" name="button">Genera</button>
+            <button type="button" name="button">Annulla</button>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 center">
+            <h1>IL TUO BIGLIETTO</h1>
+          </div>
+        </div>
+      </div>
+
+      <div class="container h-30 bg-white">
+
+      </div>
+
+    </main>
 
     <script src="js/script.js" charset="utf-8"></script>
     <!-- per il mio js -->
