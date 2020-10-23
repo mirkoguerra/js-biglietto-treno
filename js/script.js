@@ -36,5 +36,13 @@ document.getElementById("genera").addEventListener("click", function(){
 });
 
 document.getElementById("annulla").addEventListener("click", function(){
-  
+  var name = document.getElementById("nome");
+  name.value = "";
+  var km = document.getElementById("km");
+  km.value = "";
+  document.getElementById("cardName").innerHTML = "";
+  document.getElementById("offerta").innerHTML = "";
+  document.getElementById("carrozza").innerHTML = "";
+  document.getElementById("cp").innerHTML = "";
+  document.getElementById("costo").innerHTML = "";
 });
